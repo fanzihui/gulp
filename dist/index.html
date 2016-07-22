@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>融链天下 </title>
+  <!-- Custom styling plus plugins -->
+  <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./lib/bootstrap/fonts/css/font-awesome.css" rel="stylesheet">
+  <link href="./lib/gentallela/custom.css" rel="stylesheet">
+  <link href="./css/style.min.css" rel="stylesheet">
+  
+</head>
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <!-- S:left-menu -->
+<div class="left_col scroll-view">
+    <div class="navbar nav_title" style="border: 0;">
+        <a href="index.html" class="site_title"><img src="img/logo.png?v=vdb966b46" alt="" /></a>
+    </div>
+    <!-- menu prile quick info -->
+    <div class="profile clearfix">
+        <div class="profile_pic">
+            <img src="img/img.jpg?v=v69df90e9" alt="..." class="img-circle profile_img">
+        </div>
+        <div class="profile_info">
+            <span>欢迎您：</span>
+            <h2>Admin</h2>
+        </div>
+    </div>
+    <!-- /menu prile quick info -->
+    <br />
+    <!-- sidebar menu -->
+    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+        <div class="menu_section">
+            
+            <ul class="nav side-menu">
+                <li>
+                  <a><i class="fa fa-home"></i> 业务总览 <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu" style="display: none">
+                        <li><a href="master-control.html" data-link="" data-num="0">总控台</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class="fa fa-home"></i> 订单中心 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu" style="display: none">
+                        <li><a href="create-recieved-order.html" data-num="0">新建订单</a></li>
+                        <li><a href="accept-order.html" data-num="0">受理订单</a></li>
+                        <li><a href="order-manage.html" data-num="0">订单管理</a></li>
+                        <li><a href="outgoing-order.html" data-num="0">外包订单</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class="fa fa-edit"></i> 运输管理 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu" style="display: none">
+                        <li><a data-link="" data-num="0">发货管理</a></li>
+                        <li><a data-link="" data-num="0">收货管理</a></li>
+                        <li><a data-link="" data-num="0">运单管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class="fa fa-desktop"></i> 司机结算支付 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu" style="display: none">
+                        <li><a data-link="" data-num="0">司机结算</a></li>
+                        <li><a data-link="" data-num="0">司机结算列表</a></li>
+                        <li><a data-link="" data-num="0">司机付款</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class="fa fa-table"></i> 企业结算 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu" style="display: none">
+                        <li><a data-link="" data-num="0" data-name="">对账结算</a></li>
+                        <li><a data-link="" data-num="0" data-name="">应收管理</a></li>
+                        <li><a data-link="" data-num="0" data-name="">收款记录</a></li>
+                        <li><a data-link="" data-num="0" data-name="">应付管理</a></li>
+                        <li><a data-link="" data-num="0" data-name="">付款记录</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /sidebar menu -->
+    <!-- menu footer buttons -->
+    <div class="sidebar-footer hidden-small">
+        <a data-toggle="tooltip" data-placement="top" title="Settings">
+            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+        </a>
+        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+        </a>
+        <a data-toggle="tooltip" data-placement="top" title="Lock">
+            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+        </a>
+        <a data-toggle="tooltip" data-placement="top" title="Logout">
+            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+        </a>
+    </div>
+    <!-- /menu footer buttons -->
+</div>
+<!-- E:left-menu -->
+
+      </div>
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav class="" role="navigation">
+            <div class="nav toggle">
+              <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  <img src="img/img.jpg?v=v69df90e9" alt=""> Admin
+                  <span class=" fa fa-angle-down"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                  <li><a href="javascript:;">  个人信息</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      <span class="badge bg-red pull-right">50%</span>
+                      <span>设置</span>
+                    </a>
+                  </li>
+                  <li><a href="javascript:;">帮助</a></li>
+                  <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> 登出</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation" class="dropdown">
+                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="badge bg-green">6</span>
+                </a>
+                <ul id="menu1" class="dropdown-menu list-unstyled msg_list animated fadeInDown" role="menu">
+                  <li>
+                    <a>
+                      <span class="image">
+					    <img src="img/img.jpg?v=v69df90e9" alt="Profile Image" />
+                      </span>
+                      <span>
+					    <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+					    Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image">
+					    <img src="img/img.jpg?v=v69df90e9" alt="Profile Image" />
+                      </span>
+                      <span>
+					    <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+					    Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image">
+					    <img src="img/img.jpg?v=v69df90e9" alt="Profile Image" />
+                      </span>
+                      <span>
+					    <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+					    Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image">
+					    <img src="img/img.jpg?v=v69df90e9" alt="Profile Image" />
+                      </span>
+                      <span>
+					    <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+					    Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <div class="text-center">
+                      <a>
+                        <strong>See All Alerts</strong>
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- /top navigation -->
+      <!-- page content -->
+	  
+	  <div class="tabs-container">
+	    <div class="tabs-header">
+		  <ul>
+		    <li class="active" data-tab="my-desktop" data-num="0">我的桌面</li>
+		  </ul>
+		</div>
+		<div class="tabs-body" id="tabBody">
+		  <div class="tab-panel active"><div class="right_col" role="main"><iframe src="my-desktop.html" data-iframe="my-desktop" data-num="0" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" onLoad="$.iFrameHeight()"></iframe></div></div>
+	    </div>
+	  </div>
+	  
+      <!-- /page content -->
+	  <footer class="tab-footer clearfix">
+        Copyright 2014-2016 上海融链科技有限公司 沪ICP备15012288号-1
+      </footer>
+    </div>
+  </div>
+  <div id="custom_notifications" class="custom-notifications dsp_none">
+    <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+    </ul>
+    <div class="clearfix"></div>
+    <div id="notif-group" class="tabbed_notifications"></div>
+  </div>
+
+  <script src="./lib/jquery-1.12.4/jquery.min.js"></script>
+  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./lib/gentallela/custom.js"></script>
+  <script src="./lib/js/util.js"></script>
+  <script>
+    util.init();
+  </script>
+</body>
+</html>

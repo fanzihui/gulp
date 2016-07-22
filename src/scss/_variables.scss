@@ -1,0 +1,43 @@
+/**
+ * @project：ronglian 2016
+ * @description: scss basic variables define
+ * @author: kaxiaoche
+ * @date: 2016-07-13
+ * @email: leo@rltx.com
+ */
+
+//== colors
+
+// neutral colors
+$black: #333 !default;
+$white: #fff !default;
+$grey: #999 !default;
+$grey-light: #d6d6d6 !default;
+$grey-lighter: #f6f6f6 !default;
+
+// ronglian brand colors
+$rl-primary: #f48400 !default;
+$rl-info: #337ab7 !default;
+$rl-warning: #f4a600 !default;
+$rl-success: #1ebc6f !default;
+$rl-error: #e62525 !default;
+
+// text colors
+$text-color: $black !default;
+$text-muted: $grey !default;
+$link-color: $rl-info !default;
+$link-hover-color: darken($link-color, 10%) !default;
+
+//==fonts
+
+// font family
+$font-family-pc: "microsoft yahei", "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif !default;
+$font-family-mobile: "Helvetica Neue", Helvetica, STHeiTi, sans-serif !default;
+
+// font size
+$font-size-base: 12px !default;
+$font-size-medium: 14px !default;
+$font-size-large: 16px !default;
+$font-size-larger: 18px !default;
+$font-size-huge: 24px !default;
+
